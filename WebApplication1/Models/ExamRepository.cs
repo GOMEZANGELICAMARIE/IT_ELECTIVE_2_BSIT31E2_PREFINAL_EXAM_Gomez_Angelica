@@ -44,6 +44,14 @@
                 SelectedAnswer = "C. Generates EF Core models and a DbContext from an existing database",
                 Explanation = "The scaffold command reverse-engineers an existing database to generate entity model classes and a DbContext."
             },
+            new ExamQuestion
+            {
+                Id = 6,
+                Question = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
+                Options = new List<string>{ "A. Program.cs only", "B. appsettings.json", "C. Index.cshtml", "D. Student.cs" },
+                SelectedAnswer = "B. appsettings.json",
+                Explanation = "Configuration settings like database connection strings are conventionally kept in appsettings.json."
+            },
         };
     }
 }
