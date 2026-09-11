@@ -140,6 +140,14 @@
                 SelectedAnswer = "B. To catch and handle exceptions that may occur during execution",
                 Explanation = "Try-catch blocks handle runtime exceptions gracefully and prevent unhandled crashes."
             },
+            new ExamQuestion
+            {
+                Id = 18,
+                Question = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+                Options = new List<string>{ "A. UseDatabase()", "B. UseExceptionHandler()", "C. UseValidationHandler()", "D. UseMvcDatabase()" },
+                SelectedAnswer = "B. UseExceptionHandler()",
+                Explanation = "UseExceptionHandler() configures middleware to catch unhandled errors globally across the app HTTP pipeline."
+            },
         };
     }
 }
