@@ -92,6 +92,14 @@
                 SelectedAnswer = "B. To combine or shape the data specifically needed by the view",
                 Explanation = "ViewModels shape or aggregate multiple entities into a structured payload tailored specifically for UI rendering."
             },
+            new ExamQuestion
+            {
+                Id = 12,
+                Question = "Consider this query: var students = _context.Students.Include(s => s.Section).ToList(); What is the main benefit of Include(s => s.Section)?",
+                Options = new List<string>{ "A. It loads the related Section navigation property", "B. It creates a Section object manually", "C. It removes the foreign key", "D. It prevents the query from accessing the database" },
+                SelectedAnswer = "A. It loads the related Section navigation property",
+                Explanation = "It populates the Section navigation property so related section attributes are accessible in memory."
+            },
         };
     }
 }
