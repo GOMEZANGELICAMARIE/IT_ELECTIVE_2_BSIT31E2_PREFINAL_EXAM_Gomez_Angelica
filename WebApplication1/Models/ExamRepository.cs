@@ -84,6 +84,14 @@
                 SelectedAnswer = "B. Load related Section data together with Students",
                 Explanation = "The .Include() extension method specifies related entities to be included in query results (eager loading)."
             },
+            new ExamQuestion
+            {
+                Id = 11,
+                Question = "Why might a ViewModel be used when displaying Student and Section information?",
+                Options = new List<string>{ "A. To replace the database", "B. To combine or shape the data specifically needed by the view", "C. To automatically create database tables", "D. To prevent controllers from using LINQ" },
+                SelectedAnswer = "B. To combine or shape the data specifically needed by the view",
+                Explanation = "ViewModels shape or aggregate multiple entities into a structured payload tailored specifically for UI rendering."
+            },
         };
     }
 }
