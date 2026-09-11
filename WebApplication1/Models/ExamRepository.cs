@@ -52,6 +52,14 @@
                 SelectedAnswer = "B. appsettings.json",
                 Explanation = "Configuration settings like database connection strings are conventionally kept in appsettings.json."
             },
+            new ExamQuestion
+            {
+                Id = 7,
+                Question = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
+                Options = new List<string>{ "A. One-to-One", "B. One-to-Many", "C. Many-to-Many", "D. Many-to-One only" },
+                SelectedAnswer = "B. One-to-Many",
+                Explanation = "A parent entity (Section) having multiple child entities (Students) defines a One-to-Many relationship."
+            },
         };
     }
 }
