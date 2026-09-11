@@ -156,6 +156,14 @@
                 SelectedAnswer = "B. Display a Not Found (404) response/page",
                 Explanation = "An HTTP 404 status response clearly informs clients that the requested resource could not be found."
             },
+            new ExamQuestion
+            {
+                Id = 20,
+                Question = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+                Options = new List<string>{ "A. Data integrity", "B. HTML formatting", "C. CSS inheritance", "D. Razor syntax" },
+                SelectedAnswer = "A. Data integrity",
+                Explanation = "Preventing duplicate registration entries preserves data integrity within the domain system."
+            }
         };
     }
 }
