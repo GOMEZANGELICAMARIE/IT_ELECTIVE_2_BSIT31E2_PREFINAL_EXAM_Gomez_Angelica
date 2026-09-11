@@ -132,6 +132,14 @@
                 SelectedAnswer = "A. It protects data integrity even if application-level validation is bypassed",
                 Explanation = "Database constraints serve as the final line of defense to preserve data integrity."
             },
+            new ExamQuestion
+            {
+                Id = 17,
+                Question = "What is the purpose of a try...catch block in a controller?",
+                Options = new List<string>{ "A. To create navigation properties", "B. To catch and handle exceptions that may occur during execution", "C. To generate database tables", "D. To perform client-side validation" },
+                SelectedAnswer = "B. To catch and handle exceptions that may occur during execution",
+                Explanation = "Try-catch blocks handle runtime exceptions gracefully and prevent unhandled crashes."
+            },
         };
     }
 }
