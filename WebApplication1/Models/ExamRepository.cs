@@ -68,6 +68,14 @@
                 SelectedAnswer = "B. Foreign key referencing Section",
                 Explanation = "SectionId acts as the foreign key property pointing to the primary key of the related Section entity."
             },
+            new ExamQuestion
+            {
+                Id = 9,
+                Question = "What is the purpose of a navigation property such as public Section Section { get; set; }?",
+                Options = new List<string>{ "A. It stores the database password", "B. It represents a relationship to another entity", "C. It creates a new database", "D. It validates the student's name" },
+                SelectedAnswer = "B. It represents a relationship to another entity",
+                Explanation = "Navigation properties allow navigation from an entity to its related objects in code."
+            },
         };
     }
 }
