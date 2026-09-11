@@ -148,6 +148,14 @@
                 SelectedAnswer = "B. UseExceptionHandler()",
                 Explanation = "UseExceptionHandler() configures middleware to catch unhandled errors globally across the app HTTP pipeline."
             },
+            new ExamQuestion
+            {
+                Id = 19,
+                Question = "A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?",
+                Options = new List<string>{ "A. Display the student's information anyway", "B. Display a Not Found (404) response/page", "C. Delete Student 999", "D. Create Student 999 automatically" },
+                SelectedAnswer = "B. Display a Not Found (404) response/page",
+                Explanation = "An HTTP 404 status response clearly informs clients that the requested resource could not be found."
+            },
         };
     }
 }
