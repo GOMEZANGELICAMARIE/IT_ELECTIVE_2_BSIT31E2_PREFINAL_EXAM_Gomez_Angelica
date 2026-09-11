@@ -60,6 +60,14 @@
                 SelectedAnswer = "B. One-to-Many",
                 Explanation = "A parent entity (Section) having multiple child entities (Students) defines a One-to-Many relationship."
             },
+            new ExamQuestion
+            {
+                Id = 8,
+                Question = "In the following example, what is SectionId? public int SectionId { get; set; } public Section Section { get; set; }",
+                Options = new List<string>{ "A. Primary key of Student", "B. Foreign key referencing Section", "C. Navigation property", "D. Database connection string" },
+                SelectedAnswer = "B. Foreign key referencing Section",
+                Explanation = "SectionId acts as the foreign key property pointing to the primary key of the related Section entity."
+            },
         };
     }
 }
