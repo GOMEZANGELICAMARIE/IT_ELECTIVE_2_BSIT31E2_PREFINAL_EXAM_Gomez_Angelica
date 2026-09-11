@@ -116,6 +116,14 @@
                 SelectedAnswer = "A. Client-side validation can be bypassed",
                 Explanation = "Client-side validation can be disabled or bypassed by tools like Postman, requiring server validation for security."
             },
+            new ExamQuestion
+            {
+                Id = 15,
+                Question = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
+                Options = new List<string>{ "A. Student Number should always be nullable", "B. Student Number should be unique", "C. Student Number should always be the same", "D. Student Number should contain only spaces" },
+                SelectedAnswer = "B. Student Number should be unique",
+                Explanation = "A uniqueness constraint ensures that no two student records share identical identification numbers."
+            },
         };
     }
 }
