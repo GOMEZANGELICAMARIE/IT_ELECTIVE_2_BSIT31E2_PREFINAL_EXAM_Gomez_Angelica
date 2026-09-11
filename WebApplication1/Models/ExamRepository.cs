@@ -108,6 +108,14 @@
                 SelectedAnswer = "B. Client-side validation",
                 Explanation = "Client-side validation runs in the browser prior to HTTP submission to provide instant feedback."
             },
+            new ExamQuestion
+            {
+                Id = 14,
+                Question = "Why is server-side validation still necessary if client-side validation exists?",
+                Options = new List<string>{ "A. Client-side validation can be bypassed", "B. Client-side validation automatically modifies the database", "C. Server-side validation only works with SQLite", "D. Client-side validation cannot display messages" },
+                SelectedAnswer = "A. Client-side validation can be bypassed",
+                Explanation = "Client-side validation can be disabled or bypassed by tools like Postman, requiring server validation for security."
+            },
         };
     }
 }
