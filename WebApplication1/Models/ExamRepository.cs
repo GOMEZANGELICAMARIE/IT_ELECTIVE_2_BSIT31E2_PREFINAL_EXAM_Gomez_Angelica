@@ -28,6 +28,14 @@
                 SelectedAnswer = "C. To map objects in code to relational database data",
                 Explanation = "EF Core is an Object-Relational Mapper (ORM) that maps C# domain objects to relational database tables."
             },
+            new ExamQuestion
+            {
+                Id = 4,
+                Question = "Which EF Core component is primarily responsible for communicating with the database?",
+                Options = new List<string>{ "A. DbContext", "B. DbSetView", "C. ControllerContext", "D. RazorContext" },
+                SelectedAnswer = "A. DbContext",
+                Explanation = "DbContext coordinates EF Core functionality and acts as the primary class for interacting with the database."
+            },
         };
     }
 }
