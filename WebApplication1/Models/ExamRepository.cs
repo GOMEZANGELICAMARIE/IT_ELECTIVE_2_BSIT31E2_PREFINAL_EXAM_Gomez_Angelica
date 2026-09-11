@@ -20,6 +20,14 @@
                 SelectedAnswer = "B. Database-First",
                 Explanation = "Database-First approach generates EF Core entity classes and DbContext from an existing database schema."
             },
+            new ExamQuestion
+            {
+                Id = 3,
+                Question = "What is the primary purpose of Entity Framework Core?",
+                Options = new List<string>{ "A. To create HTML pages automatically", "B. To replace the MVC Controller", "C. To map objects in code to relational database data", "D. To replace the C# compiler" },
+                SelectedAnswer = "C. To map objects in code to relational database data",
+                Explanation = "EF Core is an Object-Relational Mapper (ORM) that maps C# domain objects to relational database tables."
+            },
         };
     }
 }
