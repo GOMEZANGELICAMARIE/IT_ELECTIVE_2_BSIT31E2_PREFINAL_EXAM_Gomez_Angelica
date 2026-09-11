@@ -124,6 +124,14 @@
                 SelectedAnswer = "B. Student Number should be unique",
                 Explanation = "A uniqueness constraint ensures that no two student records share identical identification numbers."
             },
+            new ExamQuestion
+            {
+                Id = 16,
+                Question = "Which is the best reason for having a database-level unique constraint on StudentNumber?",
+                Options = new List<string>{ "A. It protects data integrity even if application-level validation is bypassed", "B. It makes Razor Views render faster", "C. It removes the need for a Controller", "D. It automatically creates a ViewModel" },
+                SelectedAnswer = "A. It protects data integrity even if application-level validation is bypassed",
+                Explanation = "Database constraints serve as the final line of defense to preserve data integrity."
+            },
         };
     }
 }
