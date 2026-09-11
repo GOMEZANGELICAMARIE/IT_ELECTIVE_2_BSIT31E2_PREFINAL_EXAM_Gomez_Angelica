@@ -76,6 +76,14 @@
                 SelectedAnswer = "B. It represents a relationship to another entity",
                 Explanation = "Navigation properties allow navigation from an entity to its related objects in code."
             },
+            new ExamQuestion
+            {
+                Id = 10,
+                Question = "What does .Include() generally allow EF Core to do?",
+                Options = new List<string>{ "A. Delete the Section table", "B. Load related Section data together with Students", "C. Create a new Student", "D. Validate Student input" },
+                SelectedAnswer = "B. Load related Section data together with Students",
+                Explanation = "The .Include() extension method specifies related entities to be included in query results (eager loading)."
+            },
         };
     }
 }
