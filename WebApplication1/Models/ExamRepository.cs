@@ -36,6 +36,14 @@
                 SelectedAnswer = "A. DbContext",
                 Explanation = "DbContext coordinates EF Core functionality and acts as the primary class for interacting with the database."
             },
+            new ExamQuestion
+            {
+                Id = 5,
+                Question = "What does the following command primarily do? dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
+                Options = new List<string>{ "A. Deletes the database", "B. Creates a new MVC project", "C. Generates EF Core models and a DbContext from an existing database", "D. Starts the MVC application" },
+                SelectedAnswer = "C. Generates EF Core models and a DbContext from an existing database",
+                Explanation = "The scaffold command reverse-engineers an existing database to generate entity model classes and a DbContext."
+            },
         };
     }
 }
